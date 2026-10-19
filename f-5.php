@@ -1,5 +1,4 @@
 <?php
-
 function processComment($comment) {
     $trimmedComment = trim($comment);
     if (strlen($trimmedComment) < 5) {
@@ -9,4 +8,3 @@ function processComment($comment) {
     }
 }
 ?>
-// з 5  
